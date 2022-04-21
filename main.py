@@ -14,7 +14,7 @@ for i in range(100):
     triad.color(random.choice(colors))
     triad.forward(i*3)
     print(i*3)
-    triad.left(90)
+    triad.left(120)
 triad.down()
 triad.goto(-110, 200)
 triad.down()
